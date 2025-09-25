@@ -14,6 +14,8 @@ from typing import Tuple
 import pandas as pd
 import numpy as np
 import seaborn as sns
+import matplotlib
+matplotlib.use('Agg')  # Use non-interactive backend
 import matplotlib.pyplot as plt
 import joblib
 from sklearn.model_selection import train_test_split
