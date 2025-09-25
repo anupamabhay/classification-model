@@ -43,7 +43,7 @@ classification-model/
 ??? requirements.txt               # ?? Package dependencies
 ??? .gitignore                    # ?? Git ignore rules
 ??? README.md                     # ?? This file
-??? DEPLOYMENT.md                 # ?? Deployment guide
+??? docs/DEPLOYMENT.md            # ?? Deployment guide
 ```
 
 ## ?? Quick Start
