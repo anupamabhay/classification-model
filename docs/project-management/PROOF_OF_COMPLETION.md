@@ -1,6 +1,3 @@
-Of course. Here is the document with corrected and professional formatting.
-
------
 
 # Proof of Completion - Classification Model Project
 
