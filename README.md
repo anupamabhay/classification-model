@@ -2,38 +2,43 @@
 
 A production-ready baseline classification model built with Python, scikit-learn, and XGBoost.
 
-## Project Overview
+## ?? Project Overview
 
 This project implements a robust, reproducible classification pipeline following engineering best practices. The workflow is separated into two phases:
 
 1. **Engineering Phase**: Building a solid, automated Python script (`train_model.py`)
 2. **Documentation Phase**: Creating interactive documentation (`documentation.ipynb`)
 
-## Project Structure
+## ?? Project Structure
 
 ```
 classification-model/
 ??? data/
-?   ??? source_data.csv          # Your CSV data (provide this file)
-??? output/                      # Generated automatically
+?   ??? .gitkeep                    # Ensures directory exists in git
+?   ??? source_data.csv            # Your CSV data (provide this file)
+??? output/                         # Generated automatically
+?   ??? .gitkeep                   # Ensures directory exists in git
 ?   ??? plots/
-?   ?   ??? confusion_matrix.png # Model evaluation visualization
-?   ??? model.joblib            # Trained model pipeline
-?   ??? performance_metrics.json # Model performance scores
-??? documents/
-?   ??? copilot/
-?       ??? project_guide.md    # Development methodology
-?       ??? plans.md            # Technical specifications
-?       ??? checklist.md        # Progress tracking
-??? venv/                       # Virtual environment (auto-generated)
-??? train_model.py              # Main training script
-??? documentation.ipynb         # Results presentation notebook
-??? requirements.txt            # Package dependencies
-??? .gitignore                 # Git ignore rules
-??? README.md                  # This file
+?   ?   ??? confusion_matrix.png   # Model evaluation visualization
+?   ??? model.joblib              # Trained model pipeline
+?   ??? performance_metrics.json  # Model performance scores
+??? docs/                          # ?? Documentation
+?   ??? technical/
+?   ?   ??? TECHNICAL_GUIDE.md     # ?? Complete technical documentation
+?   ??? project-management/
+?       ??? project_guide.md       # Development methodology
+?       ??? plans.md              # Technical specifications
+?       ??? checklist.md          # Progress tracking
+??? venv/                          # Virtual environment (auto-generated)
+??? train_model.py                 # ?? Main training script
+??? documentation.ipynb            # ?? Results presentation notebook
+??? requirements.txt               # ?? Package dependencies
+??? .gitignore                    # ?? Git ignore rules
+??? README.md                     # ?? This file
+??? DEPLOYMENT.md                 # ?? Deployment guide
 ```
 
-## Quick Start
+## ?? Quick Start
 
 ### 1. Clone and Setup
 ```bash
@@ -64,27 +69,9 @@ python train_model.py
 ### 4. View Results
 - Check `output/` folder for model artifacts and metrics
 - Open `documentation.ipynb` in Jupyter for detailed analysis
+- Read `docs/technical/TECHNICAL_GUIDE.md` for complete technical details
 
-## Git Workflow
-
-This project uses a branched development approach:
-
-```bash
-# To set up remote repository (run once)
-git remote add origin https://github.com/yourusername/classification-model.git
-
-# Push development branch
-git push -u origin dev
-
-# When ready for production, merge to main
-git checkout main
-git merge dev
-git push origin main
-git tag v1.0.0
-git push origin v1.0.0
-```
-
-## Features
+## ?? Features
 
 - **Automated preprocessing pipeline** with StandardScaler and OneHotEncoder
 - **XGBoost classifier** with optimized parameters  
@@ -93,7 +80,7 @@ git push origin v1.0.0
 - **Reproducible results** with fixed random seeds
 - **Headless execution** compatible with server environments
 
-## Model Performance
+## ?? Model Performance
 
 The baseline model achieves:
 - **88% Accuracy** on test data
@@ -101,7 +88,18 @@ The baseline model achieves:
 - **Robust preprocessing** for mixed data types
 - **Fast training** (<1 second on 1000 samples)
 
-## Development Methodology
+## ?? Technical Documentation
+
+For comprehensive technical details, including:
+- Complete code architecture analysis
+- Data flow and processing pipeline explanation
+- Machine learning components deep dive
+- Performance metrics interpretation
+- Interview preparation talking points
+
+**Read:** [`docs/technical/TECHNICAL_GUIDE.md`](docs/technical/TECHNICAL_GUIDE.md)
+
+## ??? Development Methodology
 
 This project follows a **script-first development approach**:
 
@@ -110,9 +108,9 @@ This project follows a **script-first development approach**:
 3. **Version Control**: Systematic git workflow with branches
 4. **Production Ready**: Logging, error handling, modularity
 
-## Advanced Usage
+## ?? Advanced Configuration
 
-### Custom Configuration
+### Custom Settings
 Edit constants in `train_model.py`:
 ```python
 DATA_PATH = Path('./data/your_file.csv')
@@ -125,18 +123,16 @@ RANDOM_STATE = 123
 The pipeline is designed to be easily extended:
 ```python
 # In build_pipeline() function
-pipeline = Pipeline([
-    ('preprocessor', preprocessor),
-    ('classifier', XGBClassifier(
-        n_estimators=200,
-        max_depth=6,
-        learning_rate=0.1,
-        random_state=RANDOM_STATE
-    ))
-])
+XGBClassifier(
+    n_estimators=200,
+    max_depth=6,
+    learning_rate=0.1,
+    random_state=RANDOM_STATE
+)
 ```
 
-### Deployment
+## ?? Deployment
+
 The trained model can be deployed using:
 ```python
 import joblib
@@ -144,22 +140,31 @@ model = joblib.load('output/model.joblib')
 predictions = model.predict(new_data)
 ```
 
-## Next Steps
+See [`DEPLOYMENT.md`](DEPLOYMENT.md) for complete deployment instructions.
 
-### Immediate Improvements
-- [ ] Hyperparameter tuning with GridSearchCV
-- [ ] Cross-validation for robust evaluation  
-- [ ] Feature importance analysis
-- [ ] Class imbalance handling
+## ?? Next Steps & Roadmap
 
-### Production Enhancements
-- [ ] API wrapper (FastAPI/Flask)
+### Phase 2 - Model Optimization
+- [ ] Hyperparameter tuning with GridSearchCV/RandomizedSearchCV
+- [ ] Cross-validation for robust performance estimation  
+- [ ] Feature importance analysis with SHAP values
+- [ ] Model comparison (Random Forest, LightGBM, Neural Networks)
+
+### Phase 3 - Production Enhancements
+- [ ] REST API wrapper (FastAPI/Flask)
 - [ ] Model monitoring and drift detection
 - [ ] Automated retraining pipeline
+- [ ] A/B testing framework
 - [ ] Docker containerization
-- [ ] CI/CD pipeline setup
 
-## Contributing
+### Phase 4 - MLOps Integration
+- [ ] CI/CD pipeline setup
+- [ ] Model registry and versioning
+- [ ] Automated testing suite
+- [ ] Performance monitoring dashboard
+- [ ] Data quality validation
+
+## ?? Contributing
 
 1. Fork the repository
 2. Create feature branch (`git checkout -b feature/amazing-feature`)
@@ -167,7 +172,7 @@ predictions = model.predict(new_data)
 4. Push to branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## License
+## ?? License
 
 This project is designed for educational and professional development purposes.
 
