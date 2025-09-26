@@ -1,0 +1,1001 @@
+age,income,credit_score,education,employment,target
+56,72127.37,641,Bachelor,Full-time,1
+69,25876.93,665,Master,Self-employed,0
+46,64651.46,708,High School,Full-time,0
+32,30106.45,700,Master,Full-time,0
+60,25666.12,406,Bachelor,Full-time,1
+25,38366.12,640,Master,Full-time,0
+78,43097.85,499,High School,Full-time,1
+38,94444.23,622,Bachelor,Full-time,0
+56,42606.78,637,Bachelor,Part-time,0
+75,40000.17,747,Master,Part-time,0
+36,80665.92,646,Bachelor,Full-time,0
+40,49046.64,675,Master,Part-time,1
+28,26314.16,729,High School,Full-time,0
+28,71538.08,772,Master,Part-time,0
+41,25089.15,637,Master,Full-time,0
+70,26248.82,659,Master,Full-time,0
+53,23759.55,651,Bachelor,Part-time,1
+57,22739.93,595,Bachelor,Full-time,0
+41,42898.26,573,PhD,Part-time,0
+20,31921.94,422,High School,Full-time,1
+39,6379.95,542,Bachelor,Full-time,1
+70,31757.0,472,Bachelor,Full-time,0
+19,28030.37,775,Master,Full-time,0
+41,56750.1,668,High School,Full-time,0
+61,27401.98,637,Bachelor,Part-time,0
+47,129266.17,578,Master,Full-time,1
+55,73013.29,652,High School,Part-time,0
+19,29882.99,565,Master,Part-time,0
+77,64525.23,667,High School,Full-time,0
+38,47221.56,674,Bachelor,Part-time,0
+50,40812.06,563,High School,Self-employed,0
+29,54248.26,561,High School,Part-time,0
+75,37310.7,746,Master,Part-time,0
+39,40952.8,644,Bachelor,Self-employed,0
+78,54812.65,571,Bachelor,Full-time,0
+61,101338.98,612,High School,Full-time,0
+42,41175.45,548,Bachelor,Part-time,0
+66,28943.52,643,Bachelor,Full-time,0
+44,13165.89,733,Bachelor,Full-time,0
+76,96824.15,647,Bachelor,Full-time,0
+59,31836.83,850,Master,Part-time,0
+45,47448.71,692,Bachelor,Full-time,0
+77,94179.1,672,Bachelor,Self-employed,1
+33,40692.58,559,High School,Full-time,1
+32,32947.31,626,Master,Full-time,1
+79,73853.34,572,Bachelor,Full-time,0
+79,45723.54,433,Bachelor,Full-time,1
+64,48681.42,747,High School,Full-time,0
+79,16956.72,598,PhD,Self-employed,0
+68,66367.16,573,High School,Part-time,0
+61,43817.74,671,Master,Full-time,1
+72,18291.75,701,Bachelor,Full-time,0
+69,46283.79,617,High School,Part-time,0
+74,12948.53,649,Master,Self-employed,1
+20,117123.9,724,Bachelor,Full-time,1
+54,20932.8,613,Master,Full-time,0
+68,81299.6,680,Master,Full-time,0
+24,24185.83,484,Master,Part-time,0
+38,48055.55,525,High School,Full-time,1
+26,23015.79,710,Master,Full-time,0
+56,59787.84,520,Bachelor,Full-time,0
+35,32284.44,673,Master,Part-time,1
+21,45884.83,635,Bachelor,Full-time,0
+42,36590.07,613,Master,Full-time,0
+77,18346.01,567,Bachelor,Full-time,0
+31,46725.88,740,Bachelor,Full-time,0
+67,28236.8,822,High School,Full-time,0
+75,61246.16,680,Master,Part-time,0
+26,32275.71,682,Bachelor,Part-time,0
+43,34948.05,581,Bachelor,Part-time,0
+70,84243.21,530,Master,Part-time,0
+19,119469.74,646,Bachelor,Full-time,1
+37,53799.37,552,High School,Part-time,1
+45,31458.67,472,Bachelor,Full-time,0
+64,30111.71,730,Bachelor,Full-time,0
+77,24116.74,735,Bachelor,Self-employed,0
+24,26565.83,564,High School,Full-time,1
+61,31672.22,674,High School,Full-time,0
+78,96967.05,750,High School,Full-time,1
+25,32905.3,670,Master,Full-time,0
+64,19672.43,530,High School,Full-time,1
+52,37079.99,626,Bachelor,Part-time,1
+31,39698.32,782,Master,Self-employed,1
+34,36968.36,674,High School,Full-time,0
+53,54168.0,703,Bachelor,Full-time,0
+67,37590.35,684,Master,Full-time,0
+57,53335.84,564,Master,Part-time,0
+21,24583.44,587,Master,Full-time,0
+19,88465.22,683,Master,Full-time,0
+79,41201.91,731,Master,Full-time,0
+23,44360.71,759,Bachelor,Full-time,0
+71,24532.25,564,Master,Full-time,0
+59,45977.78,693,High School,Part-time,0
+21,50288.54,768,Master,Full-time,1
+71,20233.92,551,Bachelor,Full-time,0
+46,15842.54,798,Bachelor,Full-time,0
+35,42059.18,813,High School,Part-time,0
+43,28441.8,850,Master,Full-time,1
+61,41355.5,673,High School,Full-time,0
+51,19043.52,673,Master,Full-time,0
+27,16643.03,732,Master,Full-time,0
+79,40269.3,729,High School,Part-time,0
+53,30488.6,762,Master,Full-time,0
+31,12640.36,728,Master,Self-employed,1
+48,71079.16,639,Bachelor,Full-time,1
+65,18885.91,772,Bachelor,Part-time,0
+32,131486.9,542,High School,Full-time,0
+25,26582.05,650,High School,Part-time,0
+31,44390.48,806,Bachelor,Full-time,0
+40,82741.33,524,Master,Full-time,0
+77,76093.41,582,High School,Part-time,0
+74,98033.86,717,Master,Full-time,1
+79,16957.44,689,Bachelor,Full-time,1
+57,20579.84,562,Bachelor,Full-time,0
+38,40659.94,608,Master,Full-time,0
+33,55263.82,531,Master,Full-time,0
+62,36112.21,748,Bachelor,Full-time,0
+35,16010.55,624,Bachelor,Full-time,0
+64,46550.32,829,Bachelor,Part-time,0
+70,32954.21,658,High School,Full-time,1
+41,32757.28,628,High School,Part-time,1
+43,11626.3,618,Bachelor,Self-employed,0
+42,54108.26,625,Bachelor,Full-time,0
+77,39050.15,661,Master,Full-time,0
+77,89106.03,850,Bachelor,Full-time,0
+77,34987.5,616,Bachelor,Full-time,0
+62,48202.69,619,Bachelor,Self-employed,0
+58,55045.15,656,Master,Full-time,0
+46,15167.64,759,Master,Full-time,0
+32,134369.66,507,Bachelor,Full-time,1
+62,29278.36,695,Master,Full-time,0
+18,46503.52,568,High School,Full-time,0
+42,50025.64,705,Bachelor,Full-time,0
+24,24163.73,600,Bachelor,Self-employed,0
+26,91444.74,419,Bachelor,Full-time,0
+41,41480.46,686,Master,Full-time,1
+18,32639.02,686,Master,Part-time,1
+61,38919.63,592,High School,Full-time,0
+25,53216.62,586,Bachelor,Self-employed,0
+41,36512.1,518,Bachelor,Self-employed,0
+28,56441.78,727,High School,Part-time,0
+68,15639.64,738,High School,Part-time,1
+34,24984.6,562,Bachelor,Full-time,0
+25,12464.0,596,High School,Self-employed,0
+52,98568.21,643,High School,Full-time,0
+52,97928.81,850,High School,Part-time,0
+50,49677.53,704,Bachelor,Self-employed,1
+76,21887.94,555,Master,Self-employed,0
+22,119963.06,680,Bachelor,Part-time,1
+59,26843.87,512,PhD,Full-time,0
+56,32643.35,721,Bachelor,Self-employed,1
+75,39330.94,817,Master,Full-time,0
+58,45513.21,817,Master,Self-employed,0
+45,50106.26,723,Bachelor,Full-time,1
+24,51122.54,591,Bachelor,Full-time,0
+26,33783.84,519,Master,Full-time,0
+25,50718.73,509,High School,Full-time,0
+29,33037.42,369,Bachelor,Part-time,1
+51,48516.14,719,Bachelor,Full-time,0
+50,46566.93,639,Bachelor,Full-time,1
+65,53179.25,740,High School,Full-time,0
+72,49960.27,792,Master,Part-time,0
+40,29108.45,659,Bachelor,Full-time,1
+79,45677.22,664,Bachelor,Full-time,0
+41,50347.28,603,Master,Full-time,1
+54,19042.68,615,Bachelor,Full-time,1
+52,31665.33,722,PhD,Full-time,0
+61,49220.08,632,Bachelor,Full-time,0
+57,85361.14,618,High School,Full-time,0
+39,54855.08,648,Master,Self-employed,1
+44,88096.58,738,Bachelor,Part-time,1
+52,29756.81,580,Master,Full-time,0
+18,41154.78,643,PhD,Self-employed,0
+52,54331.95,674,Master,Full-time,0
+54,11348.31,766,Bachelor,Full-time,1
+64,77296.32,626,Master,Full-time,0
+31,14321.9,578,Bachelor,Full-time,0
+20,59782.61,601,Bachelor,Full-time,0
+18,51195.96,755,Master,Full-time,1
+22,11273.43,850,High School,Full-time,0
+43,11561.89,518,Master,Part-time,0
+72,74327.85,540,Master,Full-time,0
+31,66660.05,633,Master,Full-time,0
+56,23378.41,661,Bachelor,Full-time,1
+44,23366.54,728,Master,Full-time,1
+26,46924.84,560,Bachelor,Full-time,0
+32,36084.83,543,Master,Full-time,0
+32,61524.92,663,High School,Part-time,0
+43,46156.38,624,High School,Full-time,0
+59,80138.8,742,High School,Full-time,1
+77,58985.03,698,Bachelor,Full-time,0
+30,52072.2,705,Bachelor,Full-time,0
+68,30452.93,639,Master,Full-time,0
+49,29358.56,850,Bachelor,Full-time,0
+56,35387.73,566,Bachelor,Full-time,0
+66,91169.12,711,High School,Full-time,0
+69,29639.48,523,Bachelor,Full-time,0
+78,41368.07,542,Bachelor,Full-time,1
+49,11820.59,589,High School,Full-time,0
+21,50914.57,812,High School,Full-time,0
+47,112262.95,676,High School,Full-time,1
+54,22769.59,590,High School,Full-time,0
+40,177587.92,687,Bachelor,Full-time,1
+56,39780.03,653,High School,Full-time,0
+62,10031.99,600,Master,Full-time,0
+32,29948.39,510,Master,Full-time,0
+60,70630.64,793,Bachelor,Part-time,0
+46,98682.08,670,PhD,Full-time,0
+53,52002.61,850,Bachelor,Part-time,1
+30,79522.65,744,Bachelor,Full-time,0
+49,20152.98,705,PhD,Full-time,0
+24,25844.92,606,High School,Full-time,0
+76,15682.02,540,Master,Full-time,0
+68,26835.17,628,High School,Full-time,0
+39,53154.58,537,Bachelor,Full-time,0
+45,40389.61,715,High School,Full-time,1
+19,56045.8,813,Master,Full-time,1
+59,22736.87,623,Bachelor,Part-time,0
+62,23440.9,744,Master,Self-employed,0
+79,40227.46,581,Bachelor,Full-time,1
+74,26867.59,619,Bachelor,Full-time,1
+70,69628.18,568,High School,Full-time,0
+23,26536.88,436,Bachelor,Full-time,1
+45,28347.82,646,Master,Full-time,0
+45,44775.65,662,Bachelor,Self-employed,1
+61,29892.29,756,Master,Full-time,0
+61,19585.17,729,Master,Full-time,0
+37,20958.97,730,Bachelor,Full-time,1
+47,47518.91,552,Bachelor,Part-time,0
+79,18409.91,695,High School,Full-time,0
+28,73026.83,808,High School,Full-time,0
+75,25714.24,687,High School,Self-employed,1
+72,49419.87,832,Bachelor,Full-time,1
+45,26497.18,850,Bachelor,Part-time,1
+42,22979.99,623,Bachelor,Full-time,0
+56,41070.77,580,Bachelor,Part-time,1
+79,61444.63,573,Bachelor,Full-time,0
+50,32090.53,498,Bachelor,Full-time,0
+18,35145.83,598,Master,Part-time,1
+74,54377.66,770,High School,Full-time,0
+44,55285.37,429,High School,Full-time,0
+79,35623.26,546,Master,Full-time,0
+74,29093.21,637,Bachelor,Full-time,0
+69,37847.79,562,Bachelor,Full-time,1
+30,33009.29,597,Bachelor,Full-time,0
+58,42467.19,598,Bachelor,Full-time,1
+20,19987.55,624,High School,Full-time,0
+56,41713.95,577,High School,Full-time,0
+23,25357.97,568,Bachelor,Full-time,0
+25,57121.95,743,Bachelor,Part-time,1
+44,25945.83,754,Master,Self-employed,0
+26,26171.99,511,Master,Part-time,1
+79,45374.22,374,Bachelor,Full-time,0
+54,36574.48,756,Master,Full-time,0
+50,113360.22,527,Bachelor,Full-time,0
+68,16080.28,671,Bachelor,Full-time,1
+59,38365.98,493,Master,Full-time,1
+61,63884.03,779,Bachelor,Full-time,0
+41,27196.49,850,Bachelor,Full-time,0
+32,23033.87,668,High School,Self-employed,0
+76,23495.58,640,Bachelor,Full-time,1
+71,16220.31,617,Master,Full-time,0
+49,71314.31,728,Master,Full-time,1
+49,30797.58,706,Master,Full-time,1
+41,29027.14,750,Master,Part-time,0
+58,12555.96,587,Bachelor,Full-time,1
+69,17732.35,684,Bachelor,Full-time,0
+66,75560.95,595,High School,Full-time,0
+79,42258.16,544,Bachelor,Full-time,0
+66,65072.05,645,Bachelor,Full-time,0
+75,61083.45,557,PhD,Part-time,1
+69,22019.64,767,Bachelor,Part-time,0
+29,122384.6,563,Bachelor,Part-time,0
+79,96265.6,686,Bachelor,Full-time,0
+56,27395.03,589,Bachelor,Part-time,0
+19,6099.11,677,Master,Full-time,0
+20,30385.9,597,High School,Full-time,0
+66,40910.75,524,Bachelor,Full-time,0
+54,27340.94,698,Master,Full-time,1
+66,32507.92,626,Bachelor,Full-time,1
+73,23996.69,678,High School,Part-time,0
+34,57573.48,607,Bachelor,Full-time,1
+76,37489.52,517,Master,Full-time,0
+66,58440.07,758,High School,Full-time,0
+19,66909.86,723,Master,Part-time,0
+19,12244.57,593,Master,Self-employed,0
+45,24704.46,656,Bachelor,Part-time,0
+71,26581.89,754,PhD,Full-time,1
+40,131358.59,604,Master,Full-time,0
+54,39124.44,619,Master,Full-time,1
+49,54517.68,674,Master,Full-time,0
+50,14180.94,604,High School,Full-time,1
+18,39011.34,735,High School,Full-time,0
+36,59227.81,633,Bachelor,Full-time,0
+79,55881.16,571,High School,Self-employed,0
+19,49597.7,710,Bachelor,Full-time,0
+70,36552.33,535,Master,Full-time,0
+61,37450.84,850,Master,Full-time,1
+43,15574.14,808,Bachelor,Self-employed,0
+49,23149.62,701,Master,Part-time,1
+23,40760.63,692,Master,Part-time,0
+49,25387.5,688,Bachelor,Self-employed,1
+72,51247.35,601,High School,Full-time,0
+21,45861.96,679,Bachelor,Full-time,0
+72,71947.01,557,Master,Full-time,1
+28,58637.34,700,Bachelor,Full-time,0
+73,40685.65,736,Bachelor,Full-time,0
+76,52785.42,612,High School,Full-time,0
+34,60027.08,590,Master,Self-employed,0
+55,28177.56,528,Master,Self-employed,0
+41,30801.99,795,Master,Part-time,1
+22,34599.24,598,PhD,Part-time,0
+69,28630.7,630,Master,Full-time,0
+51,60345.61,680,Master,Full-time,0
+23,26538.31,678,Master,Full-time,0
+39,67902.34,724,Master,Full-time,0
+28,30227.68,612,Bachelor,Part-time,1
+65,45990.88,536,High School,Full-time,0
+33,39466.5,518,Bachelor,Self-employed,1
+50,22292.6,592,Bachelor,Full-time,0
+26,35956.14,554,Bachelor,Full-time,0
+77,42908.35,619,Bachelor,Full-time,0
+76,35166.66,780,PhD,Full-time,0
+23,18557.82,612,Master,Full-time,0
+33,85026.19,612,Master,Full-time,0
+46,37943.36,648,Bachelor,Part-time,1
+20,24412.45,609,High School,Full-time,0
+37,81665.26,643,High School,Full-time,1
+77,49448.89,704,Bachelor,Full-time,0
+76,19928.68,738,High School,Full-time,1
+53,21541.85,750,High School,Self-employed,1
+36,32493.74,850,Master,Full-time,0
+43,42135.82,706,Master,Self-employed,1
+20,49582.83,850,Bachelor,Full-time,0
+36,58401.06,572,High School,Self-employed,1
+37,47561.85,850,Bachelor,Full-time,0
+49,71208.89,611,High School,Full-time,0
+24,38692.33,621,Master,Full-time,1
+69,24839.25,638,Bachelor,Full-time,0
+58,36254.71,628,Bachelor,Full-time,0
+50,35084.32,658,Bachelor,Full-time,1
+57,10005.52,591,High School,Full-time,0
+56,27427.92,732,Bachelor,Full-time,0
+35,42493.31,594,Master,Full-time,0
+57,29374.79,715,Bachelor,Part-time,0
+18,26288.72,802,High School,Full-time,1
+28,57278.93,614,Bachelor,Full-time,0
+45,22965.01,729,Bachelor,Full-time,0
+74,51834.5,705,Master,Part-time,0
+42,18650.49,850,Bachelor,Full-time,1
+67,144405.55,599,Bachelor,Full-time,0
+40,32602.92,729,Bachelor,Self-employed,0
+48,30895.55,487,Bachelor,Part-time,1
+47,64314.02,600,Bachelor,Full-time,0
+59,29455.84,685,Bachelor,Full-time,0
+52,75166.72,789,Bachelor,Part-time,0
+24,43730.32,527,Master,Full-time,0
+77,34228.06,728,Bachelor,Full-time,0
+33,32451.34,643,Master,Full-time,0
+43,66422.83,497,Bachelor,Part-time,1
+65,40751.32,668,Master,Full-time,0
+74,45078.21,820,Master,Part-time,1
+69,47595.85,537,Bachelor,Full-time,0
+77,38811.35,639,Master,Full-time,1
+66,47095.66,551,High School,Full-time,1
+19,34229.33,603,Master,Full-time,0
+18,35422.26,793,Bachelor,Self-employed,0
+65,20752.93,622,High School,Part-time,0
+79,42145.37,790,Bachelor,Full-time,1
+29,15370.87,760,PhD,Full-time,1
+22,41847.15,613,High School,Full-time,0
+54,31561.46,599,Bachelor,Full-time,0
+49,43795.77,560,Master,Full-time,0
+76,21495.22,556,Master,Full-time,1
+72,12585.76,685,Bachelor,Full-time,0
+26,30472.12,648,High School,Part-time,0
+58,21526.58,587,High School,Self-employed,0
+52,14909.02,495,Bachelor,Full-time,0
+36,53315.99,660,Bachelor,Part-time,1
+65,80871.69,603,Master,Full-time,0
+33,24380.14,630,High School,Full-time,0
+20,34965.41,680,Bachelor,Full-time,0
+37,31135.6,399,High School,Full-time,0
+41,26122.46,496,High School,Full-time,0
+71,50608.19,850,Bachelor,Full-time,1
+73,60178.52,599,Bachelor,Part-time,1
+50,23522.12,398,Bachelor,Part-time,0
+41,37137.53,505,Master,Full-time,0
+69,69027.93,850,Bachelor,Self-employed,1
+28,51252.42,579,PhD,Full-time,0
+66,55207.2,765,Master,Full-time,0
+25,71969.14,662,Bachelor,Full-time,1
+53,71497.84,601,Master,Full-time,1
+55,60737.79,727,Bachelor,Full-time,1
+57,39044.95,411,High School,Full-time,1
+37,29994.18,505,Master,Full-time,1
+79,38243.88,600,High School,Part-time,0
+52,27800.15,515,Bachelor,Full-time,0
+65,13680.91,591,Master,Full-time,0
+79,31579.09,735,High School,Full-time,0
+42,43423.81,663,High School,Full-time,0
+52,27074.98,783,Master,Full-time,0
+42,32978.47,669,Bachelor,Part-time,0
+46,33623.54,749,High School,Full-time,0
+35,71569.79,643,Bachelor,Full-time,0
+63,30341.79,590,Bachelor,Full-time,0
+35,71561.8,798,Bachelor,Full-time,0
+19,9355.83,579,PhD,Full-time,1
+71,71248.42,684,Bachelor,Full-time,0
+52,69473.67,726,Bachelor,Self-employed,0
+33,57018.29,734,Master,Full-time,1
+78,13280.35,533,Master,Full-time,0
+58,60442.24,755,High School,Full-time,0
+53,35416.76,552,High School,Full-time,0
+50,10253.06,731,High School,Full-time,0
+21,69500.47,703,Bachelor,Self-employed,1
+50,74763.61,731,Bachelor,Full-time,0
+31,14013.05,529,Bachelor,Full-time,0
+38,39644.62,708,Master,Full-time,0
+65,72714.46,758,Master,Full-time,0
+37,67176.63,669,High School,Full-time,0
+73,55162.05,568,Bachelor,Full-time,0
+25,9666.04,741,Bachelor,Full-time,0
+24,52301.03,661,Bachelor,Full-time,0
+20,32563.52,482,Bachelor,Part-time,0
+34,59750.26,560,Master,Full-time,0
+50,41277.83,597,Bachelor,Full-time,0
+65,35956.29,800,Bachelor,Full-time,1
+29,50033.69,783,Master,Full-time,0
+76,33324.34,782,Bachelor,Full-time,0
+68,35877.35,673,High School,Full-time,0
+39,27512.29,741,Bachelor,Full-time,0
+72,16273.54,535,High School,Full-time,1
+39,48239.18,650,Master,Full-time,0
+63,24269.72,695,High School,Full-time,1
+47,32846.62,542,Bachelor,Part-time,0
+55,41918.69,670,Bachelor,Full-time,1
+55,12802.44,818,PhD,Full-time,0
+62,14318.76,705,High School,Full-time,1
+68,31261.13,741,High School,Full-time,0
+71,45582.62,404,High School,Full-time,0
+25,52681.47,805,High School,Full-time,0
+44,16388.62,631,High School,Part-time,0
+44,49926.93,573,Bachelor,Full-time,1
+51,32127.42,632,High School,Full-time,0
+38,23351.61,501,High School,Full-time,0
+47,26257.95,754,Master,Full-time,0
+50,54226.7,616,Bachelor,Full-time,0
+45,41647.76,576,Bachelor,Part-time,0
+64,37240.54,633,Bachelor,Full-time,0
+50,41017.25,761,PhD,Part-time,0
+22,57759.83,663,High School,Part-time,1
+77,34594.51,509,Master,Part-time,0
+78,37315.33,696,Master,Full-time,0
+65,64156.8,557,High School,Full-time,1
+36,30767.27,434,PhD,Full-time,0
+21,49467.46,799,High School,Full-time,0
+52,28230.2,695,High School,Full-time,0
+66,29497.66,642,Master,Part-time,0
+34,34474.5,615,Master,Full-time,0
+61,46987.48,789,Bachelor,Full-time,1
+45,65978.95,850,High School,Full-time,0
+47,38111.55,694,Bachelor,Full-time,0
+46,17155.63,547,Master,Full-time,1
+63,49797.65,634,Bachelor,Part-time,1
+70,123861.72,693,Bachelor,Full-time,0
+23,38343.27,415,High School,Part-time,0
+52,15453.89,683,High School,Part-time,0
+77,39530.45,693,Master,Part-time,1
+58,36260.84,782,Bachelor,Full-time,1
+54,34767.75,772,PhD,Part-time,0
+41,58261.98,661,Bachelor,Full-time,0
+46,72340.35,801,Master,Full-time,0
+66,51112.93,850,High School,Full-time,1
+63,33978.08,652,Bachelor,Full-time,0
+70,63757.33,691,High School,Full-time,0
+48,17207.23,473,Bachelor,Full-time,1
+52,25386.48,504,Bachelor,Full-time,0
+77,26841.01,566,PhD,Self-employed,0
+50,35757.83,605,Bachelor,Full-time,0
+69,46787.31,540,High School,Full-time,0
+78,32847.91,646,High School,Full-time,0
+38,23086.01,608,High School,Full-time,0
+49,59125.95,757,Bachelor,Self-employed,0
+40,32282.21,602,Master,Full-time,1
+50,38218.1,421,Master,Full-time,0
+20,47836.0,662,High School,Full-time,0
+35,37028.34,648,Bachelor,Self-employed,0
+42,37109.78,563,Bachelor,Full-time,1
+59,60793.41,659,Bachelor,Part-time,1
+48,39170.72,542,Bachelor,Full-time,0
+71,55904.41,682,Bachelor,Full-time,0
+75,47683.17,850,Bachelor,Full-time,0
+20,99552.83,469,High School,Part-time,0
+57,44565.12,598,Master,Full-time,0
+63,49960.43,582,High School,Full-time,1
+41,62996.12,606,Bachelor,Full-time,1
+67,37489.23,751,Bachelor,Full-time,0
+49,26398.79,704,Bachelor,Full-time,1
+64,28650.53,734,Master,Self-employed,1
+39,28788.94,653,Master,Full-time,0
+40,22580.33,517,Master,Full-time,0
+19,42569.89,538,Bachelor,Part-time,1
+44,26509.06,724,Master,Full-time,0
+59,40031.68,667,Bachelor,Full-time,1
+19,33545.66,776,Master,Full-time,1
+43,35567.56,679,Bachelor,Full-time,0
+34,47955.48,531,PhD,Full-time,1
+57,27696.2,597,Master,Full-time,1
+50,49983.36,706,Master,Full-time,0
+26,79511.26,721,High School,Full-time,0
+60,43111.91,735,High School,Self-employed,0
+71,24561.91,545,Master,Part-time,0
+65,26701.93,529,High School,Part-time,0
+56,32076.17,631,Master,Part-time,0
+46,26972.01,794,Bachelor,Full-time,0
+59,22123.81,580,Bachelor,Part-time,0
+72,39230.26,695,Master,Full-time,1
+43,32513.2,695,Bachelor,Full-time,1
+52,39929.09,726,Bachelor,Full-time,1
+67,65722.31,816,Bachelor,Full-time,0
+42,32267.75,806,Bachelor,Part-time,1
+41,20076.19,590,Master,Self-employed,1
+30,29749.09,440,High School,Full-time,0
+77,53381.13,582,Master,Part-time,0
+75,50939.05,657,Master,Full-time,0
+24,47066.64,613,Bachelor,Full-time,1
+74,26572.89,846,Master,Full-time,0
+53,52889.03,651,Bachelor,Full-time,0
+62,59186.55,715,Bachelor,Self-employed,0
+37,25649.75,671,PhD,Part-time,0
+18,35568.47,615,High School,Part-time,0
+25,99727.92,457,High School,Full-time,0
+63,25085.94,642,Bachelor,Self-employed,0
+33,15482.36,850,Bachelor,Full-time,1
+31,72508.0,525,Bachelor,Part-time,0
+29,64106.59,468,Master,Full-time,0
+68,28897.67,843,Bachelor,Full-time,0
+40,34320.71,724,Bachelor,Full-time,0
+32,19683.43,668,High School,Full-time,0
+45,37967.13,786,Bachelor,Full-time,0
+51,65052.95,566,High School,Full-time,1
+19,27686.43,639,High School,Full-time,1
+49,56305.7,745,Bachelor,Full-time,1
+40,45791.87,850,High School,Full-time,0
+39,48480.09,533,High School,Full-time,0
+68,28505.3,778,High School,Full-time,1
+42,30414.9,688,Master,Full-time,0
+75,14423.5,666,Master,Full-time,0
+79,27355.29,649,Bachelor,Self-employed,0
+78,64974.02,511,Master,Part-time,0
+39,22818.66,746,Master,Full-time,0
+75,24583.95,571,Bachelor,Part-time,1
+75,50015.83,542,High School,Part-time,0
+39,44417.29,738,Master,Self-employed,0
+66,51273.62,728,Master,Full-time,1
+69,20300.28,657,Bachelor,Full-time,1
+59,130879.06,757,Master,Full-time,0
+23,19774.0,792,Bachelor,Full-time,0
+32,39227.12,780,Master,Full-time,1
+71,33545.98,597,Master,Full-time,1
+60,20063.94,751,Bachelor,Part-time,0
+77,30178.81,671,Master,Self-employed,1
+54,36741.19,822,Bachelor,Full-time,0
+50,26239.3,637,Bachelor,Full-time,0
+25,58023.99,614,Master,Full-time,0
+70,33496.19,588,High School,Part-time,0
+77,18571.11,668,Bachelor,Full-time,1
+61,17799.71,696,High School,Full-time,0
+61,49172.14,698,Bachelor,Full-time,0
+22,17268.07,684,Bachelor,Full-time,0
+56,42540.55,717,Master,Full-time,0
+21,45357.35,627,High School,Full-time,0
+23,22077.68,562,Bachelor,Part-time,0
+62,56690.9,554,High School,Self-employed,0
+49,15384.31,747,Master,Self-employed,1
+69,42117.96,697,Master,Self-employed,0
+47,35581.14,464,PhD,Full-time,0
+64,34217.79,759,Master,Full-time,1
+52,20151.86,838,Master,Part-time,0
+72,22731.09,578,High School,Self-employed,0
+57,81585.03,683,Bachelor,Full-time,1
+69,66674.48,602,Bachelor,Full-time,0
+33,52630.04,712,Master,Full-time,0
+30,58100.18,533,Master,Full-time,0
+67,55437.24,642,High School,Full-time,0
+77,30894.14,748,Master,Full-time,1
+59,37190.25,773,Bachelor,Full-time,0
+47,17391.66,692,Bachelor,Full-time,1
+36,34722.81,616,High School,Part-time,1
+34,65624.68,490,High School,Full-time,0
+73,26098.85,574,Bachelor,Full-time,0
+36,60570.95,603,Bachelor,Full-time,0
+45,38017.16,580,High School,Part-time,0
+75,18166.13,655,Bachelor,Full-time,0
+72,20875.68,615,Master,Self-employed,1
+43,57506.39,667,Master,Full-time,1
+54,47870.85,770,Master,Self-employed,0
+43,38211.13,609,Bachelor,Self-employed,0
+70,31665.53,511,Bachelor,Full-time,1
+79,40347.47,579,Master,Full-time,0
+40,56395.7,708,Bachelor,Full-time,1
+26,75957.3,717,High School,Full-time,0
+29,77795.75,690,High School,Full-time,0
+70,43738.32,780,Bachelor,Full-time,1
+18,33324.03,631,High School,Full-time,0
+75,39070.54,850,Bachelor,Full-time,1
+75,47148.63,731,High School,Full-time,1
+18,47053.17,397,High School,Full-time,0
+64,69842.17,830,Bachelor,Full-time,0
+51,104597.81,573,Bachelor,Full-time,1
+49,32773.41,546,Bachelor,Full-time,1
+79,106717.72,702,High School,Full-time,0
+71,65259.02,476,High School,Part-time,1
+65,34530.16,580,Bachelor,Full-time,0
+42,76824.77,805,Bachelor,Full-time,0
+57,84357.93,705,Bachelor,Full-time,1
+62,28849.63,731,Bachelor,Part-time,0
+70,86345.13,584,Master,Part-time,1
+18,62164.63,496,Bachelor,Part-time,0
+33,118691.1,720,Bachelor,Full-time,0
+78,29377.39,743,Bachelor,Full-time,0
+56,30433.12,738,Bachelor,Full-time,0
+22,13182.81,670,Bachelor,Full-time,0
+39,48319.81,553,Bachelor,Self-employed,0
+46,43810.36,850,Master,Full-time,0
+72,27405.61,697,High School,Part-time,0
+20,34859.28,632,High School,Full-time,0
+29,18852.29,633,Bachelor,Part-time,1
+43,66119.73,664,Master,Full-time,0
+33,28428.58,756,High School,Full-time,0
+68,170591.06,668,PhD,Full-time,0
+54,33262.95,735,Bachelor,Full-time,0
+39,24839.5,665,PhD,Full-time,0
+74,29550.13,638,Master,Part-time,0
+46,17926.22,714,Bachelor,Full-time,0
+31,46218.52,710,High School,Full-time,1
+45,29438.25,633,High School,Full-time,1
+22,63935.27,575,High School,Full-time,0
+64,31654.2,684,Master,Part-time,0
+66,72563.77,657,High School,Part-time,0
+47,53036.09,594,Bachelor,Part-time,0
+63,36838.49,565,Bachelor,Part-time,0
+79,80026.75,691,Master,Part-time,0
+69,58462.85,705,High School,Full-time,0
+22,158436.06,613,High School,Part-time,0
+29,29592.39,592,High School,Full-time,0
+33,37733.67,566,Master,Full-time,0
+43,79566.98,688,Bachelor,Full-time,0
+43,16784.84,569,High School,Part-time,0
+65,70155.66,850,High School,Part-time,0
+38,45236.13,608,High School,Full-time,0
+56,23292.68,407,High School,Part-time,0
+53,18370.11,646,Master,Self-employed,0
+50,25945.55,642,Master,Full-time,0
+79,11586.43,761,Bachelor,Full-time,0
+47,28430.86,678,Master,Part-time,0
+54,49576.8,566,High School,Full-time,0
+40,28619.67,621,Master,Full-time,0
+75,72704.34,682,Master,Full-time,0
+27,83280.84,433,Bachelor,Full-time,0
+71,68721.83,783,Master,Part-time,1
+22,40754.46,566,High School,Full-time,0
+53,11357.8,791,High School,Part-time,0
+51,25543.83,689,High School,Part-time,1
+69,33825.86,712,Bachelor,Part-time,1
+48,23226.9,764,Master,Full-time,0
+27,33868.72,707,Master,Full-time,0
+75,81229.5,717,Bachelor,Full-time,0
+36,15948.37,633,Master,Full-time,0
+75,89845.43,687,Master,Part-time,0
+49,56520.76,591,High School,Full-time,0
+18,41527.39,615,Bachelor,Full-time,0
+73,25417.46,846,High School,Full-time,1
+22,23459.36,569,Bachelor,Part-time,1
+62,16105.1,665,Master,Part-time,0
+21,85680.69,661,High School,Full-time,0
+33,78339.39,618,Master,Part-time,0
+41,17977.17,701,Bachelor,Full-time,1
+33,27548.02,708,Bachelor,Full-time,0
+72,45097.06,557,Bachelor,Part-time,0
+19,31264.72,660,Bachelor,Full-time,0
+66,13914.16,541,High School,Self-employed,0
+45,26137.17,728,High School,Full-time,0
+49,96328.27,667,High School,Full-time,1
+44,27038.33,658,Bachelor,Self-employed,0
+37,33465.37,715,High School,Full-time,0
+41,20484.24,622,Master,Self-employed,0
+29,48721.78,741,Bachelor,Self-employed,0
+67,38467.77,555,Bachelor,Full-time,1
+52,25059.05,791,Bachelor,Full-time,1
+77,18914.28,594,Bachelor,Full-time,1
+50,73296.76,480,Master,Full-time,1
+50,16272.44,617,High School,Full-time,0
+78,46719.08,605,High School,Full-time,0
+68,12370.38,616,Master,Full-time,0
+60,51720.31,673,High School,Full-time,1
+54,58991.55,759,High School,Self-employed,0
+29,62780.0,630,Bachelor,Part-time,0
+20,33503.18,580,High School,Part-time,1
+18,80177.79,537,Bachelor,Full-time,0
+50,115139.05,603,High School,Part-time,0
+57,30920.93,461,Master,Full-time,0
+27,28983.95,577,Master,Part-time,0
+60,39127.81,774,Bachelor,Self-employed,0
+61,28599.94,567,Bachelor,Full-time,1
+46,26584.0,712,Master,Full-time,0
+30,27767.75,527,High School,Part-time,1
+29,85637.45,827,Master,Self-employed,0
+48,53420.03,833,Master,Part-time,0
+63,28553.28,709,Master,Full-time,1
+19,10640.66,849,Bachelor,Full-time,0
+78,16777.06,685,High School,Full-time,0
+68,46710.05,726,Bachelor,Part-time,1
+67,12571.93,776,Master,Full-time,0
+52,42045.04,667,High School,Part-time,0
+40,21316.1,494,Master,Full-time,0
+34,38021.34,728,High School,Full-time,0
+43,37493.7,602,High School,Full-time,0
+25,38572.5,610,High School,Part-time,0
+46,29815.66,679,High School,Full-time,1
+43,29329.74,706,Bachelor,Full-time,1
+27,25326.46,665,High School,Full-time,0
+43,46255.99,713,PhD,Full-time,0
+79,54317.21,579,Bachelor,Full-time,0
+51,19742.2,645,High School,Part-time,0
+68,35390.04,734,Bachelor,Full-time,0
+58,40066.31,827,Master,Full-time,1
+24,39810.48,850,Master,Part-time,1
+21,39473.5,693,High School,Self-employed,0
+75,29702.38,734,Master,Full-time,0
+70,41752.53,848,Master,Full-time,0
+67,49464.69,582,High School,Part-time,0
+62,38968.87,712,High School,Self-employed,0
+28,46768.72,726,Bachelor,Part-time,1
+46,59586.05,794,High School,Full-time,0
+73,14393.47,536,Master,Full-time,1
+53,58205.31,556,Bachelor,Part-time,0
+42,43097.22,652,Master,Full-time,0
+38,20830.79,687,Bachelor,Full-time,0
+78,54243.34,762,High School,Part-time,0
+74,29757.59,701,High School,Full-time,0
+53,31857.14,634,Bachelor,Full-time,0
+27,28174.15,691,Master,Full-time,1
+54,42243.23,680,Master,Full-time,0
+26,24521.94,824,High School,Full-time,0
+41,56996.05,666,High School,Part-time,1
+52,33879.61,611,High School,Full-time,1
+66,30269.59,694,Bachelor,Full-time,1
+52,52914.77,669,High School,Self-employed,0
+65,30952.89,492,Bachelor,Full-time,1
+53,58342.64,648,Bachelor,Full-time,0
+35,59266.32,639,Master,Self-employed,0
+66,18631.3,595,Bachelor,Part-time,0
+56,63236.07,753,High School,Full-time,0
+49,17482.96,571,Bachelor,Part-time,0
+41,65237.53,695,Bachelor,Full-time,0
+40,100125.39,635,Bachelor,Part-time,0
+79,56241.89,660,Master,Full-time,0
+49,12351.21,691,Master,Part-time,0
+54,61807.68,519,High School,Full-time,1
+29,111643.33,669,High School,Full-time,1
+66,31209.7,850,Bachelor,Full-time,0
+72,35690.8,494,Master,Full-time,1
+30,20045.43,644,High School,Part-time,0
+40,42448.2,762,Bachelor,Full-time,0
+42,68499.97,680,Bachelor,Full-time,0
+52,51475.88,718,High School,Full-time,0
+58,174727.6,412,Bachelor,Full-time,1
+47,36920.18,709,Master,Part-time,0
+34,16069.26,573,High School,Part-time,0
+66,39556.51,680,Bachelor,Full-time,0
+79,10848.41,647,Bachelor,Self-employed,0
+37,27818.26,850,Master,Part-time,1
+65,81812.97,704,PhD,Full-time,1
+42,42726.17,638,Bachelor,Full-time,0
+39,39723.9,499,Master,Self-employed,1
+30,90254.63,662,Bachelor,Full-time,0
+76,31719.92,732,Bachelor,Part-time,1
+36,68248.46,641,High School,Full-time,0
+66,38740.99,599,High School,Full-time,0
+53,43915.55,592,High School,Full-time,0
+29,19758.67,703,Bachelor,Full-time,0
+78,28537.57,725,High School,Self-employed,0
+58,18056.14,786,Master,Full-time,0
+36,34626.6,550,High School,Full-time,0
+29,44143.51,702,High School,Self-employed,1
+26,20847.33,637,Bachelor,Full-time,0
+24,101173.23,640,Master,Full-time,0
+45,41733.23,690,High School,Part-time,0
+31,37380.25,690,Bachelor,Part-time,1
+48,53360.65,702,PhD,Full-time,0
+69,23993.45,544,High School,Full-time,1
+36,39408.58,575,Bachelor,Full-time,1
+75,25376.2,798,Master,Full-time,0
+64,79168.99,627,High School,Full-time,0
+33,21390.03,680,Bachelor,Full-time,0
+70,37480.75,755,Bachelor,Full-time,0
+22,42815.6,696,Bachelor,Full-time,1
+52,44241.25,704,High School,Full-time,1
+29,27156.79,739,High School,Full-time,0
+42,23207.84,438,Bachelor,Part-time,0
+69,27353.57,601,High School,Part-time,1
+76,47295.14,696,Master,Full-time,0
+38,33795.3,788,Bachelor,Full-time,0
+53,54073.76,656,Bachelor,Full-time,0
+70,46096.94,565,Master,Full-time,0
+40,11632.33,568,Bachelor,Full-time,1
+33,41099.4,738,High School,Full-time,0
+74,111885.06,628,Master,Full-time,0
+56,70448.31,649,High School,Part-time,1
+62,44846.76,711,High School,Full-time,0
+70,21381.98,359,Master,Full-time,1
+59,46109.62,850,Bachelor,Part-time,0
+75,52568.64,576,Bachelor,Full-time,0
+56,31988.34,674,High School,Full-time,1
+31,42547.27,479,Bachelor,Full-time,0
+48,77252.24,607,High School,Full-time,0
+75,23655.78,774,Master,Part-time,0
+22,21393.67,458,High School,Full-time,0
+52,51346.38,762,Master,Full-time,0
+40,45650.57,622,Bachelor,Full-time,1
+46,60743.73,698,Master,Full-time,1
+60,48286.0,715,Master,Part-time,1
+28,27340.45,694,Bachelor,Part-time,0
+35,45075.6,563,Bachelor,Full-time,0
+64,20515.52,613,High School,Full-time,0
+29,32043.21,503,High School,Full-time,1
+26,46695.34,699,Master,Part-time,0
+27,30325.46,820,Master,Full-time,0
+75,124744.9,467,Bachelor,Full-time,1
+61,14099.69,573,High School,Full-time,0
+34,27618.88,631,Bachelor,Full-time,0
+78,22722.48,667,Bachelor,Full-time,1
+55,25586.64,737,Bachelor,Full-time,1
+24,26330.96,634,Master,Full-time,0
+63,18709.56,618,PhD,Full-time,0
+30,52910.18,760,High School,Full-time,1
+57,27624.33,716,Bachelor,Part-time,0
+59,39410.46,703,Bachelor,Full-time,0
+26,29219.37,661,Bachelor,Full-time,0
+67,25708.06,748,High School,Full-time,0
+44,83795.92,584,High School,Full-time,0
+75,57610.84,570,Master,Full-time,0
+19,14269.79,724,Bachelor,Part-time,0
+22,13533.61,487,Bachelor,Full-time,0
+46,61163.41,659,Master,Self-employed,1
+54,28003.18,618,Master,Full-time,1
+55,15922.03,509,High School,Full-time,1
+36,61259.09,556,Bachelor,Full-time,0
+25,39519.99,639,Bachelor,Full-time,0
+65,41183.19,753,Master,Part-time,0
+62,54435.38,584,Master,Part-time,1
+18,18864.02,771,Bachelor,Part-time,0
+39,16062.61,656,Bachelor,Self-employed,0
+69,80055.64,781,Master,Part-time,1
+34,17701.71,589,High School,Full-time,0
+24,19709.99,645,High School,Full-time,0
+42,21780.76,686,Bachelor,Full-time,1
+62,102741.66,632,High School,Full-time,1
+21,46476.01,745,High School,Part-time,0
+53,58847.46,429,Master,Full-time,1
+23,40058.0,850,Master,Full-time,0
+77,26877.81,735,Bachelor,Full-time,1
+48,49793.79,632,High School,Full-time,0
+36,16675.44,594,High School,Full-time,0
+78,21001.69,563,High School,Full-time,0
+61,52390.87,714,High School,Full-time,1
+71,18423.32,749,Master,Full-time,0
+56,33039.51,633,High School,Full-time,0
+44,33800.94,760,Bachelor,Full-time,0
+27,27880.12,559,High School,Full-time,1
+43,13690.27,541,Master,Full-time,0
+36,26516.85,831,Master,Full-time,0
+56,24041.0,709,Master,Full-time,0
+79,39368.45,789,Master,Full-time,0
+20,38378.22,564,Bachelor,Full-time,0
+62,43869.77,557,High School,Full-time,0
+30,25900.22,614,Bachelor,Full-time,0
+67,47164.13,567,Bachelor,Full-time,0
+45,16680.52,720,Bachelor,Part-time,1
+79,14603.95,574,High School,Full-time,0
+75,11296.11,532,High School,Self-employed,0
+37,28292.48,664,Bachelor,Full-time,1
+45,24918.13,521,Bachelor,Full-time,0
+25,53887.71,470,Master,Full-time,1
+78,26256.5,663,High School,Full-time,0
+58,41634.66,475,Bachelor,Full-time,0
+56,54537.74,727,High School,Full-time,0
+18,25766.76,510,High School,Full-time,1
+20,42151.52,425,Bachelor,Full-time,0
+30,59931.87,620,High School,Full-time,0
+45,19553.68,664,High School,Full-time,1
+79,36769.58,699,Bachelor,Full-time,0
+74,25822.02,667,High School,Full-time,0
+77,20186.21,544,High School,Part-time,0
+66,16844.41,721,High School,Part-time,1
+42,20023.78,746,High School,Self-employed,0
+73,37422.02,529,High School,Full-time,0
+50,16229.37,631,Bachelor,Part-time,0
+55,27574.22,622,High School,Part-time,0
+70,54534.96,672,High School,Full-time,1
+23,45456.24,629,Bachelor,Full-time,1
+75,27854.4,643,Bachelor,Self-employed,1
+61,84528.6,714,Master,Full-time,1
+62,93574.97,538,Master,Full-time,0
+49,36792.94,723,Master,Full-time,0
+62,10569.51,764,Bachelor,Full-time,1
+78,56569.43,813,Bachelor,Part-time,0
+64,11533.51,435,Bachelor,Full-time,0
+38,75968.42,631,High School,Full-time,1
+33,62429.45,453,High School,Full-time,0
+71,88177.42,406,High School,Full-time,1
+38,41362.62,664,Master,Full-time,0
+28,30312.25,610,Bachelor,Full-time,0
+77,28997.05,679,Master,Part-time,0
+54,27635.87,698,Bachelor,Full-time,0
+53,59310.07,774,Bachelor,Full-time,1
+52,51851.32,655,High School,Full-time,0
+36,38565.48,850,High School,Full-time,0
+37,25308.85,680,Master,Part-time,0
+74,135212.96,834,Bachelor,Part-time,0
+35,57307.53,416,Bachelor,Part-time,0
+64,16336.29,784,Master,Full-time,1
+58,28053.59,631,High School,Full-time,0
+66,57866.16,455,PhD,Full-time,1
+31,24348.62,692,Bachelor,Full-time,1
+32,43294.2,619,Bachelor,Part-time,0
+48,58419.1,708,Bachelor,Part-time,0
+18,6672.74,751,High School,Part-time,1
+70,34405.82,501,High School,Self-employed,0
+71,35087.65,751,Bachelor,Part-time,0
+71,29553.69,650,Master,Full-time,0
+20,42228.37,785,Master,Full-time,1
+33,50451.1,629,High School,Full-time,1
+40,38988.63,602,Bachelor,Full-time,1
+74,30124.27,652,High School,Full-time,0
+28,49826.92,660,High School,Full-time,0
+29,37217.22,583,Bachelor,Part-time,0
+27,32359.08,600,Bachelor,Full-time,0
+49,18842.31,527,High School,Part-time,0
+33,16625.16,606,High School,Part-time,1
+25,18664.62,717,PhD,Full-time,1
+55,41737.89,636,High School,Full-time,0
+29,34907.63,750,Bachelor,Full-time,0
+41,17324.17,631,Bachelor,Part-time,0
+45,50159.28,506,High School,Part-time,0
+70,72197.07,709,High School,Part-time,1
+25,26923.46,582,Bachelor,Full-time,1
+75,15206.97,626,Master,Full-time,0
+45,25474.59,773,Bachelor,Full-time,0
+53,55671.87,533,Bachelor,Part-time,0
+43,47775.34,666,PhD,Full-time,0
+25,22897.51,645,Master,Full-time,0
+75,77698.1,720,Bachelor,Full-time,0
+77,71263.53,735,Bachelor,Full-time,0
+67,25172.24,676,Bachelor,Full-time,1
+45,25043.13,613,Bachelor,Full-time,0
+45,26999.83,697,Bachelor,Full-time,0
+54,28179.04,783,Bachelor,Full-time,0
+58,58411.55,647,High School,Part-time,0
+53,44921.17,623,Bachelor,Part-time,0
+44,56305.04,688,High School,Full-time,0
+71,50857.48,653,High School,Part-time,0
+34,85584.85,516,High School,Full-time,0
+26,21382.05,673,Bachelor,Full-time,1
+50,43922.38,515,Bachelor,Part-time,0
+70,12247.65,687,High School,Part-time,1
+37,18798.31,570,Bachelor,Part-time,0
+30,34981.45,653,Bachelor,Full-time,0
+45,44761.48,689,High School,Full-time,0
+65,34513.03,850,Bachelor,Part-time,0
+46,27348.14,724,Master,Full-time,1
+30,29890.35,786,Master,Full-time,1
+63,72021.54,837,Bachelor,Part-time,1
+52,29970.95,698,Bachelor,Part-time,1
+78,87083.33,678,High School,Part-time,0
+23,54014.54,543,High School,Full-time,0
+35,45650.45,638,High School,Part-time,0
+68,19994.28,577,PhD,Full-time,1
+22,57966.42,609,High School,Full-time,1
+64,28370.77,837,High School,Full-time,0
+42,19985.86,661,Master,Full-time,1
+19,46930.44,562,Master,Full-time,0
+27,18142.76,787,Master,Full-time,0
+73,24806.95,745,High School,Full-time,0
+47,36132.28,750,High School,Full-time,0
+67,110107.31,449,Bachelor,Full-time,1
+76,25759.07,844,High School,Full-time,0
+62,28879.63,594,High School,Full-time,0
+22,52374.36,727,Bachelor,Part-time,0
+72,19552.38,850,Master,Part-time,0
+73,45315.44,850,Bachelor,Full-time,0
+50,66367.54,552,Bachelor,Part-time,0
+71,31146.36,505,Bachelor,Full-time,0
+18,60662.27,793,High School,Full-time,0
+35,42012.6,664,Bachelor,Part-time,0
+49,25201.51,599,High School,Full-time,1
+64,32895.71,712,High School,Self-employed,0
+66,30035.08,633,Master,Full-time,0
