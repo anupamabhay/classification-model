@@ -22,7 +22,7 @@ This project implements a robust, reproducible classification pipeline following
 classification-model/
 ??? data/
 ?   ??? .gitkeep                    # Ensures directory exists in git
-?   ??? source_data.csv            # Your CSV data (provide this file)
+?   ??? source_data.csv            # Sample CSV data (1000 rows, mixed features)
 ??? output/                         # Generated automatically
 ?   ??? .gitkeep                   # Ensures directory exists in git
 ?   ??? plots/
@@ -36,10 +36,11 @@ classification-model/
 ?       ??? project_guide.md       # Development methodology
 ?       ??? plans.md              # Technical specifications & roadmap
 ?       ??? checklist.md          # Progress tracking
+?       ??? JUPYTER_SETUP_GUIDE.md # Complete Jupyter setup instructions
 ?       ??? PROOF_OF_COMPLETION.md # Project completion certificate
 ??? venv/                          # Virtual environment (auto-generated)
 ??? train_model.py                 # Main training script
-??? documentation.ipynb            # Results presentation notebook
+??? documentation.ipynb            # Interactive ML pipeline walkthrough
 ??? requirements.txt               # Package dependencies
 ??? .gitignore                    # Git ignore rules
 ??? README.md                     # This file
@@ -64,15 +65,20 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 2. Prepare Your Data
-- Place your CSV file as `data/source_data.csv`
+### 2. Run with Sample Data (Ready to Go!)
+The project includes sample data, so you can run it immediately:
+```bash
+# Run the automated training pipeline
+python train_model.py
+
+# Or explore interactively with Jupyter
+jupyter notebook documentation.ipynb
+```
+
+### 3. Use Your Own Data
+- Replace `data/source_data.csv` with your CSV file
 - Ensure it has a 'target' column for binary classification
 - The script automatically detects numerical/categorical features
-
-### 3. Run the Training Pipeline
-```bash
-python train_model.py
-```
 
 ### 4. View Results
 - Check `output/` folder for model artifacts and metrics
@@ -83,6 +89,8 @@ python train_model.py
 
 ### Current Achievements (Phase 1)
 - **88% Model Accuracy** - Strong baseline performance
+- **Complete sample dataset** - 1000 rows with realistic mixed features
+- **Interactive Jupyter notebook** - Full ML pipeline walkthrough
 - **Automated preprocessing pipeline** with StandardScaler and OneHotEncoder
 - **XGBoost classifier** with optimized parameters  
 - **Comprehensive evaluation** with multiple metrics and visualizations
@@ -96,6 +104,26 @@ python train_model.py
 - **Recall**: 88.0% (weighted average)
 - **F1-Score**: 87.8% (weighted average)
 - **Training Time**: <1 second (1000 samples)
+
+### Sample Dataset Features
+- **1000 samples** with realistic feature relationships
+- **Numerical features**: age, income, credit_score
+- **Categorical features**: education, employment_status
+- **Binary target**: balanced classification (0/1)
+- **No missing values** - clean, ready-to-use data
+
+## Interactive Jupyter Notebook
+
+The `documentation.ipynb` provides a complete ML pipeline walkthrough:
+
+1. **Data Loading & Exploration** - Understand the dataset structure
+2. **Feature Analysis** - Visualize distributions and relationships
+3. **Data Preprocessing** - See StandardScaler and OneHotEncoder in action
+4. **Model Training** - Step-by-step XGBoost training process
+5. **Evaluation & Metrics** - Comprehensive performance assessment
+6. **Model Validation** - Test saved model and example predictions
+
+**Setup Jupyter**: See [`docs/project-management/JUPYTER_SETUP_GUIDE.md`](docs/project-management/JUPYTER_SETUP_GUIDE.md)
 
 ## Technical Documentation
 
@@ -186,11 +214,13 @@ See [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md) for complete deployment instructi
 ## Project Status & Completion
 
 ### Phase 1: Complete & Production Ready
-- **Completion Date**: September 25, 2025
+- **Completion Date**: September 26, 2025
 - **Status**: All objectives achieved
 - **Performance**: 88% accuracy baseline established
 - **Documentation**: Comprehensive technical and user guides
 - **Code Quality**: Production-ready with professional standards
+- **Sample Data**: Complete dataset with 1000 realistic samples
+- **Interactive Demo**: Full Jupyter notebook walkthrough
 
 **View Complete Details:** [Proof of Completion](docs/project-management/PROOF_OF_COMPLETION.md)
 
