@@ -1,136 +1,151 @@
 # Project Organization & Structure
 
-## ?? Directory Structure
+## Directory Structure
 
 ```
 classification-model/
-??? ?? data/                          # Data Management
-?   ??? .gitkeep                     # Ensures directory exists
-?   ??? source_data.csv              # User-provided training data
-?
-??? ?? output/                        # Generated Artifacts  
-?   ??? .gitkeep                     # Ensures directory exists
-?   ??? ?? plots/                    # Visualizations
-?   ?   ??? confusion_matrix.png     # Model performance heatmap
-?   ??? ?? model.joblib             # Serialized trained pipeline
-?   ??? ?? performance_metrics.json  # JSON evaluation results
-?
-??? ?? docs/                         # Documentation Hub
-?   ??? ?? technical/               # Technical Documentation
-?   ?   ??? TECHNICAL_GUIDE.md       # Complete technical reference
-?   ??? ?? project-management/       # Project Management
-?       ??? project_guide.md         # Development methodology  
-?       ??? plans.md                # Technical roadmap & specifications
-?       ??? checklist.md            # Progress tracking & status
-?
-??? ?? venv/                        # Python Virtual Environment
-?   ??? [auto-generated]            # Isolated package dependencies
-?
-??? ?? train_model.py               # CORE: Main training script
-??? ?? documentation.ipynb          # Interactive results presentation
-??? ?? requirements.txt             # Package dependencies with versions
-??? ?? .gitignore                  # Git exclusion rules
-??? ?? README.md                   # User guide & project overview  
-??? ?? DEPLOYMENT.md               # Deployment instructions
+├── data/                             # Data Management
+│   ├── .gitkeep
+│   └── source_data.csv             # User-provided training data
+├── output/                           # Generated Artifacts
+│   ├── .gitkeep
+│   ├── plots/
+│   │   └── confusion_matrix.png    # Model performance heatmap
+│   ├── model.joblib                # Serialized trained pipeline
+│   └── performance_metrics.json    # JSON evaluation results
+├── docs/                             # Documentation Hub
+│   ├── technical/
+│   │   └── TECHNICAL_GUIDE.md      # Complete technical reference
+│   └── project-management/
+│       ├── project_guide.md        # Development methodology
+│       ├── plans.md                # Technical roadmap & specifications
+│       └── checklist.md            # Progress tracking & status
+├── venv/                             # Python Virtual Environment
+├── train_model.py                    # CORE: Main training script
+├── documentation.ipynb               # Interactive results presentation
+├── requirements.txt                  # Package dependencies with versions
+├── .gitignore                        # Git exclusion rules
+├── README.md                         # User guide & project overview
+└── DEPLOYMENT.md                     # Deployment instructions
 ```
 
-## ?? File Purposes & Responsibilities
+## File Purposes & Responsibilities
 
 ### Core Implementation Files
-- **`train_model.py`**: Main production script - modular, logged, type-hinted
-- **`requirements.txt`**: Pinned dependencies for reproducible environments
-- **`documentation.ipynb`**: Interactive presentation of results and analysis
+
+  - **`train_model.py`**: The main production script - modular, logged, and type-hinted.
+  - **`requirements.txt`**: Pinned dependencies for creating reproducible environments.
+  - **`documentation.ipynb`**: An interactive presentation of the model's results and analysis.
 
 ### Data Management
-- **`data/source_data.csv`**: User-provided training dataset (required)
-- **`output/model.joblib`**: Complete trained pipeline ready for deployment
-- **`output/performance_metrics.json`**: Machine-readable evaluation metrics
-- **`output/plots/confusion_matrix.png`**: Visual performance assessment
+
+  - **`data/source_data.csv`**: The user-provided training dataset (required for execution).
+  - **`output/model.joblib`**: The complete trained pipeline, ready for deployment.
+  - **`output/performance_metrics.json`**: Machine-readable evaluation metrics.
+  - **`output/plots/confusion_matrix.png`**: A visual assessment of the model's performance.
 
 ### Documentation Hierarchy
-- **`README.md`**: Entry point for users - setup, usage, features
-- **`docs/technical/TECHNICAL_GUIDE.md`**: Complete technical deep-dive
-- **`docs/project-management/plans.md`**: Development roadmap and specifications  
-- **`docs/project-management/checklist.md`**: Progress tracking and status
-- **`DEPLOYMENT.md`**: Production deployment instructions
+
+  - **`README.md`**: The main entry point for users, covering setup, usage, and features.
+  - **`docs/technical/TECHNICAL_GUIDE.md`**: A complete technical deep-dive into the project's architecture.
+  - **`docs/project-management/plans.md`**: The development roadmap and technical specifications.
+  - **`docs/project-management/checklist.md`**: Used for progress tracking and status updates.
+  - **`DEPLOYMENT.md`**: Instructions for deploying the model into a production environment.
 
 ### Development Infrastructure
-- **`.gitignore`**: Professional exclusions (venv/, output/, IDE files)
-- **`venv/`**: Isolated Python environment with exact package versions
 
-## ?? Workflow & Usage Patterns
+  - **`.gitignore`**: Contains professional exclusions to keep the repository clean (e.g., `venv/`, `output/`, IDE files).
+  - **`venv/`**: The isolated Python environment with exact package versions.
+
+-----
+
+## Workflow & Usage Patterns
 
 ### Development Workflow
-1. **Setup**: `python -m venv venv` ? `pip install -r requirements.txt`
-2. **Data**: Place CSV file as `data/source_data.csv`
-3. **Training**: `python train_model.py`
-4. **Analysis**: Open `documentation.ipynb` for results
-5. **Documentation**: Read `docs/technical/TECHNICAL_GUIDE.md` for details
+
+1.  **Setup**: `python -m venv venv` followed by `pip install -r requirements.txt`.
+2.  **Data**: Place the training CSV file at `data/source_data.csv`.
+3.  **Training**: Run `python train_model.py`.
+4.  **Analysis**: Open `documentation.ipynb` to view and interact with the results.
+5.  **Details**: Read `docs/technical/TECHNICAL_GUIDE.md` for a full explanation of the system.
 
 ### File Interaction Flow
+
 ```
-source_data.csv ? train_model.py ? {model.joblib, metrics.json, confusion_matrix.png}
-                      ?
-documentation.ipynb ? loads artifacts for presentation
-                      ?  
-TECHNICAL_GUIDE.md ? explains entire system architecture
+source_data.csv -> train_model.py -> {model.joblib, metrics.json, confusion_matrix.png}
+                               |
+                               v
+      documentation.ipynb -> loads artifacts for presentation
+                               |
+                               v
+      TECHNICAL_GUIDE.md -> explains the entire system architecture
 ```
 
 ### Git Workflow
-- **Main Branch**: Stable releases with complete README
-- **Dev Branch**: Active development with latest features
-- **Documentation**: Continuously updated in docs/ folder
-- **Releases**: Tagged versions with deployment guides
 
-## ?? Documentation Strategy
+  - **`main` Branch**: Stable releases with a complete `README.md`.
+  - **`dev` Branch**: Active development with the latest features.
+  - **Documentation**: Continuously updated in the `docs/` folder.
+  - **Releases**: Tagged versions are created with corresponding deployment guides.
+
+-----
+
+## Documentation Strategy
 
 ### Three-Tier Documentation Approach
 
-**Tier 1: User-Facing (`README.md`)**
-- Quick start and basic usage
-- Feature overview and benefits
-- Installation and setup instructions
-- Links to detailed documentation
+#### Tier 1: User-Facing (`README.md`)
 
-**Tier 2: Technical Deep-Dive (`docs/technical/TECHNICAL_GUIDE.md`)**
-- Complete architecture analysis
-- Code structure and design decisions
-- Algorithm explanations and data flow
-- Interview preparation talking points
+  - Quick start and basic usage.
+  - Feature overview and benefits.
+  - Installation and setup instructions.
+  - Links to more detailed documentation.
 
-**Tier 3: Project Management (`docs/project-management/`)**
-- Development methodology and philosophy
-- Technical specifications and roadmap
-- Progress tracking and success metrics
-- Future enhancement planning
+#### Tier 2: Technical Deep-Dive (`docs/technical/TECHNICAL_GUIDE.md`)
+
+  - Complete architecture analysis.
+  - Code structure and design decisions.
+  - Algorithm explanations and data flow diagrams.
+  - Interview preparation talking points.
+
+#### Tier 3: Project Management (`docs/project-management/`)
+
+  - Development methodology and philosophy.
+  - Technical specifications and roadmap.
+  - Progress tracking and success metrics.
+  - Future enhancement planning.
 
 ### Documentation Maintenance
-- **Living Documents**: Updated with each feature addition
-- **Version Synchronization**: Docs match code implementation
-- **User Feedback**: Continuously improved based on usage patterns
-- **Technical Accuracy**: Validated against actual implementation
 
-## ?? Quality Assurance
+  - **Living Documents**: Updated with each new feature.
+  - **Version Synchronization**: Docs always match the code implementation.
+  - **User Feedback**: Continuously improved based on usage patterns.
+  - **Technical Accuracy**: Validated against the actual implementation.
+
+-----
+
+## Quality Assurance
 
 ### Code Quality Standards
-- **Type Hints**: All functions have proper type annotations
-- **Docstrings**: Comprehensive documentation for all functions  
-- **Logging**: Professional logging throughout execution
-- **Error Handling**: Robust exception management
-- **Modularity**: Single responsibility principle for functions
+
+  - **Type Hints**: All functions have proper type annotations.
+  - **Docstrings**: Comprehensive documentation for all functions.
+  - **Logging**: Professional logging throughout the execution path.
+  - **Error Handling**: Robust exception management.
+  - **Modularity**: Adherence to the single-responsibility principle for functions.
 
 ### Documentation Quality
-- **Completeness**: Every component thoroughly explained
-- **Accuracy**: Documentation matches implementation
-- **Clarity**: Accessible to different skill levels
-- **Structure**: Logical organization and navigation
-- **Examples**: Practical usage demonstrations
+
+  - **Completeness**: Every component is thoroughly explained.
+  - **Accuracy**: The documentation correctly reflects the implementation.
+  - **Clarity**: Written to be accessible to different skill levels.
+  - **Structure**: Features logical organization and navigation.
+  - **Examples**: Includes practical usage demonstrations.
 
 ### Project Organization Benefits
-- **Scalability**: Clear structure supports growth
-- **Maintainability**: Easy to locate and update components
-- **Collaboration**: Team-friendly organization
-- **Professional Standards**: Industry best practices
-- **Knowledge Transfer**: Comprehensive documentation for handoff
 
-This organization ensures the project remains maintainable, scalable, and professional as it evolves through different phases of development.
+  - **Scalability**: A clear structure that supports future growth.
+  - **Maintainability**: Components are easy to locate and update.
+  - **Collaboration**: A team-friendly organization.
+  - **Professional Standards**: Follows industry best practices.
+  - **Knowledge Transfer**: Comprehensive documentation allows for easy handoff.
