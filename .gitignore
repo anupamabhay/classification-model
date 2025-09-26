@@ -10,5 +10,8 @@ __pycache__/
 .idea/
 .vs/
 
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
 # Output data
 output/
