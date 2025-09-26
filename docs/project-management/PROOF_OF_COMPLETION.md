@@ -57,20 +57,20 @@ CV Accuracy:  95.5% ± 0.7%
 ### 2. Project Structure
 ```
 classification-model/
-??? data/
-?   ??? source_data.csv
-??? output/
-?   ??? plots/
-?   ?   ??? production_confusion_matrix.png
-?   ??? production_model.joblib
-?   ??? performance_metrics.json
-??? docs/
-?   ??? project-management/
-?   ??? technical/
-??? train_model.py
-??? generate_data.py
-??? requirements.txt
-??? README.md
+|-- data/
+|   |-- source_data.csv
+|-- output/
+|   |-- plots/
+|   |   |-- production_confusion_matrix.png
+|   |-- production_model.joblib
+|   |-- performance_metrics.json
+|-- docs/
+|   |-- project-management/
+|   |-- technical/
+|-- train_model.py
+|-- generate_data.py
+|-- requirements.txt
+|-- README.md
 ```
 
 ### 3. Dependencies

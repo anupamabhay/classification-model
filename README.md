@@ -48,20 +48,20 @@ probabilities = model.predict_proba(your_data)
 
 ```
 classification-model/
-??? data/
-?   ??? source_data.csv              # Balanced training dataset
-??? output/
-?   ??? plots/
-?   ?   ??? production_confusion_matrix.png
-?   ??? production_model.joblib      # Trained ensemble model
-?   ??? performance_metrics.json     # Performance results
-??? docs/
-?   ??? project-management/          # Project documentation
-?   ??? technical/                   # Technical documentation
-??? train_model.py                   # Main training pipeline
-??? generate_data.py                 # Dataset generation
-??? requirements.txt                 # Dependencies
-??? README.md                        # This file
+|-- data/
+|   |-- source_data.csv              # Balanced training dataset
+|-- output/
+|   |-- plots/
+|   |   |-- production_confusion_matrix.png
+|   |-- production_model.joblib      # Trained ensemble model
+|   |-- performance_metrics.json     # Performance results
+|-- docs/
+|   |-- project-management/          # Project documentation
+|   |-- technical/                   # Technical documentation
+|-- train_model.py                   # Main training pipeline
+|-- generate_data.py                 # Dataset generation
+|-- requirements.txt                 # Dependencies
+|-- README.md                        # This file
 ```
 
 ## Technical Highlights
@@ -81,9 +81,9 @@ classification-model/
 - **Composite Scores**: Financial risk and qualification indicators
 
 ### Production-Ready Pipeline
-```python
-Data Input ? Feature Engineering ? Preprocessing ? Feature Selection ? 
-SMOTE Balancing ? Ensemble Classification ? Evaluation ? Persistence
+```
+Data Input -> Feature Engineering -> Preprocessing -> Feature Selection -> 
+SMOTE Balancing -> Ensemble Classification -> Evaluation -> Persistence
 ```
 
 ## Model Performance Details
