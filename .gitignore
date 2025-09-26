@@ -13,8 +13,6 @@ __pycache__/
 # Jupyter Notebooks
 .ipynb_checkpoints/
 
-# Output data
-output/
 
 # Project management files (keep only PROOF_OF_COMPLETION.md in repo)
 docs/project-management/plans.md
