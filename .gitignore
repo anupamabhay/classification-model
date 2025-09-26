@@ -15,3 +15,8 @@ __pycache__/
 
 # Output data
 output/
+
+# Project management files (keep only PROOF_OF_COMPLETION.md in repo)
+docs/project-management/plans.md
+docs/project-management/checklist.md
+docs/project-management/project_guide.md

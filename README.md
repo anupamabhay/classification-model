@@ -89,7 +89,7 @@ SMOTE Balancing -> Ensemble Classification -> Evaluation -> Persistence
 ## Model Performance Details
 
 ### Cross-Validation Results
-- **CV Accuracy**: 95.5% ± 0.7%
+- **CV Accuracy**: 95.5%  0.7%
 - **Consistent Performance**: Low variance across all 5 folds
 - **Robust Validation**: Stratified sampling maintains class balance
 
