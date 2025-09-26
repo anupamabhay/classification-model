@@ -7,16 +7,16 @@ A production-ready baseline classification model built with Python, scikit-learn
 [![Status](https://img.shields.io/badge/Status-Production%20Ready-green)](https://github.com/anupamabhay/classification-model)
 [![Accuracy](https://img.shields.io/badge/Model%20Accuracy-88%25-brightgreen)](docs/project-management/PROOF_OF_COMPLETION.md)
 
-## ?? Project Overview
+## Project Overview
 
 This project implements a robust, reproducible classification pipeline following engineering best practices. The workflow is separated into two phases:
 
 1. **Engineering Phase**: Building a solid, automated Python script (`train_model.py`)
 2. **Documentation Phase**: Creating interactive documentation (`documentation.ipynb`)
 
-**?? Status**: Phase 1 Complete - Production Ready! See [Proof of Completion](docs/project-management/PROOF_OF_COMPLETION.md)
+**Status**: Phase 1 Complete - Production Ready! See [Proof of Completion](docs/project-management/PROOF_OF_COMPLETION.md)
 
-## ?? Project Structure
+## Project Structure
 
 ```
 classification-model/
@@ -29,24 +29,24 @@ classification-model/
 ?   ?   ??? confusion_matrix.png   # Model evaluation visualization
 ?   ??? model.joblib              # Trained model pipeline
 ?   ??? performance_metrics.json  # Model performance scores
-??? docs/                          # ?? Documentation
+??? docs/                          # Documentation
 ?   ??? technical/
-?   ?   ??? TECHNICAL_GUIDE.md     # ?? Complete technical documentation
+?   ?   ??? TECHNICAL_GUIDE.md     # Complete technical documentation
 ?   ??? project-management/
 ?       ??? project_guide.md       # Development methodology
 ?       ??? plans.md              # Technical specifications & roadmap
 ?       ??? checklist.md          # Progress tracking
-?       ??? PROOF_OF_COMPLETION.md # ?? Project completion certificate
+?       ??? PROOF_OF_COMPLETION.md # Project completion certificate
 ??? venv/                          # Virtual environment (auto-generated)
-??? train_model.py                 # ?? Main training script
-??? documentation.ipynb            # ?? Results presentation notebook
-??? requirements.txt               # ?? Package dependencies
-??? .gitignore                    # ?? Git ignore rules
-??? README.md                     # ?? This file
-??? docs/DEPLOYMENT.md            # ?? Deployment guide
+??? train_model.py                 # Main training script
+??? documentation.ipynb            # Results presentation notebook
+??? requirements.txt               # Package dependencies
+??? .gitignore                    # Git ignore rules
+??? README.md                     # This file
+??? docs/DEPLOYMENT.md            # Deployment guide
 ```
 
-## ?? Quick Start
+## Quick Start
 
 ### 1. Clone and Setup
 ```bash
@@ -79,9 +79,9 @@ python train_model.py
 - Open `documentation.ipynb` in Jupyter for detailed analysis
 - Read `docs/technical/TECHNICAL_GUIDE.md` for complete technical details
 
-## ?? Features & Performance
+## Features & Performance
 
-### Current Achievements (Phase 1) ?
+### Current Achievements (Phase 1)
 - **88% Model Accuracy** - Strong baseline performance
 - **Automated preprocessing pipeline** with StandardScaler and OneHotEncoder
 - **XGBoost classifier** with optimized parameters  
@@ -97,7 +97,7 @@ python train_model.py
 - **F1-Score**: 87.8% (weighted average)
 - **Training Time**: <1 second (1000 samples)
 
-## ?? Technical Documentation
+## Technical Documentation
 
 For comprehensive technical details, including:
 - Complete code architecture analysis
@@ -108,7 +108,7 @@ For comprehensive technical details, including:
 
 **Read:** [`docs/technical/TECHNICAL_GUIDE.md`](docs/technical/TECHNICAL_GUIDE.md)
 
-## ??? Development Methodology
+## Development Methodology
 
 This project follows a **script-first development approach**:
 
@@ -117,7 +117,7 @@ This project follows a **script-first development approach**:
 3. **Version Control**: Systematic git workflow with branches
 4. **Production Ready**: Logging, error handling, modularity
 
-## ?? Advanced Configuration
+## Advanced Configuration
 
 ### Custom Settings
 Edit constants in `train_model.py`:
@@ -140,7 +140,7 @@ XGBClassifier(
 )
 ```
 
-## ?? Deployment
+## Deployment
 
 The trained model can be deployed using:
 ```python
@@ -151,7 +151,7 @@ predictions = model.predict(new_data)
 
 See [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md) for complete deployment instructions.
 
-## ?? Enhancement Roadmap
+## Enhancement Roadmap
 
 ### Phase 2 - Model Optimization (Next)
 - [ ] Hyperparameter tuning with GridSearchCV/RandomizedSearchCV
@@ -175,7 +175,7 @@ See [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md) for complete deployment instructi
 
 **Complete roadmap:** [`docs/project-management/plans.md`](docs/project-management/plans.md)
 
-## ?? Contributing
+## Contributing
 
 1. Fork the repository
 2. Create feature branch (`git checkout -b feature/amazing-feature`)
@@ -183,31 +183,31 @@ See [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md) for complete deployment instructi
 4. Push to branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## ?? Project Status & Completion
+## Project Status & Completion
 
-### ? Phase 1: Complete & Production Ready
+### Phase 1: Complete & Production Ready
 - **Completion Date**: September 25, 2025
 - **Status**: All objectives achieved
 - **Performance**: 88% accuracy baseline established
 - **Documentation**: Comprehensive technical and user guides
 - **Code Quality**: Production-ready with professional standards
 
-**View Complete Details:** [?? Proof of Completion](docs/project-management/PROOF_OF_COMPLETION.md)
+**View Complete Details:** [Proof of Completion](docs/project-management/PROOF_OF_COMPLETION.md)
 
-### ?? Ready For
+### Ready For
 - Immediate production deployment
 - Team collaboration and handoff  
 - Technical interviews and presentations
 - Future enhancement and scaling
 - Enterprise integration
 
-## ?? License
+## License
 
 This project is designed for educational and professional development purposes.
 
 ---
 
 **Repository**: https://github.com/anupamabhay/classification-model  
-**Status**: ? Production Ready | **Version**: 1.0.0 | **Python**: 3.8+
+**Status**: Production Ready | **Version**: 1.0.0 | **Python**: 3.8+
 
-*Built with ?? for reliable machine learning workflows*
+*Built with care for reliable machine learning workflows*
